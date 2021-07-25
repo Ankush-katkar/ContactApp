@@ -1,0 +1,434 @@
+2021-03-08 06:11:48,380 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:11:48,396 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:11:48,816 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - Devtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable
+2021-03-08 06:11:48,821 [restartedMain] INFO  o.s.b.d.e.DevToolsPropertyDefaultsPostProcessor    - For additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'
+2021-03-08 06:11:56,505 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:11:56,956 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 424 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:12:00,306 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:12:00,481 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:12:00,489 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:12:00,491 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:12:01,052 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:12:01,053 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 12225 ms
+2021-03-08 06:12:01,773 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Starting...
+2021-03-08 06:12:02,410 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Start completed.
+2021-03-08 06:12:02,432 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-08 06:12:03,540 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:12:04,304 [restartedMain] INFO  org.hibernate.Version                              - HHH000412: Hibernate ORM core version 5.4.28.Final
+2021-03-08 06:12:05,929 [restartedMain] INFO  org.hibernate.annotations.common.Version           - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2021-03-08 06:12:07,221 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:12:10,554 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:12:10,604 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:12:10,785 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:12:13,101 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:12:13,864 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:12:14,261 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:12:14,775 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:12:15,698 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:12:15,784 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:12:15,788 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:12:15,943 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:12:16,046 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:12:16,834 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 30.746 seconds (JVM running for 36.648)
+2021-03-08 06:12:17,179 [RMI TCP Connection(1)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 06:12:17,180 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-08 06:12:17,185 [RMI TCP Connection(1)-127.0.0.1] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 4 ms
+2021-03-08 06:13:50,772 [Thread-5] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:13:50,847 [Thread-5] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:13:50,848 [Thread-5] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:13:51,156 [Thread-5] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:13:51,163 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown initiated...
+2021-03-08 06:13:51,185 [Thread-5] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-1 - Shutdown completed.
+2021-03-08 06:13:51,693 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:13:51,694 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:13:54,969 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:13:55,004 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 33 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:13:55,540 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:13:55,544 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:13:55,545 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:13:55,545 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:13:55,722 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:13:55,723 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 4010 ms
+2021-03-08 06:13:55,902 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Starting...
+2021-03-08 06:13:55,913 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Start completed.
+2021-03-08 06:13:55,914 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-08 06:13:56,167 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:13:56,184 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:13:56,327 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:13:56,337 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:13:56,401 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:13:56,848 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:13:57,094 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:13:57,175 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:13:57,315 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:13:57,641 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:13:57,655 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:13:57,658 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:13:57,661 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:13:57,687 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:13:57,837 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 6.315 seconds (JVM running for 137.652)
+2021-03-08 06:13:57,846 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 06:18:07,186 [Thread-9] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:18:07,191 [Thread-9] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:18:07,192 [Thread-9] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:18:07,397 [Thread-9] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:18:07,399 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown initiated...
+2021-03-08 06:18:07,402 [Thread-9] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-2 - Shutdown completed.
+2021-03-08 06:18:07,717 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:18:07,718 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:18:09,291 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:18:09,321 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 27 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:18:09,624 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:18:09,626 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:18:09,627 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:18:09,627 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:18:09,767 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:18:09,767 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2039 ms
+2021-03-08 06:18:10,020 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Starting...
+2021-03-08 06:18:10,027 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Start completed.
+2021-03-08 06:18:10,039 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:18:10,055 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:18:10,148 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:18:10,148 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:18:10,186 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:18:10,521 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:18:10,868 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:18:10,989 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:18:11,166 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:18:11,548 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:18:11,561 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:18:11,564 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:18:11,567 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:18:11,592 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:18:11,779 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 4.158 seconds (JVM running for 391.594)
+2021-03-08 06:18:11,801 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+    None
+
+
+Negative matches:
+-----------------
+
+   H2ConsoleAutoConfiguration:
+      Did not match:
+         - @ConditionalOnProperty (spring.h2.console.enabled=true) found different value in property 'enabled' (OnPropertyCondition)
+      Matched:
+         - @ConditionalOnClass found required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+         - found 'session' scope (OnWebApplicationCondition)
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-03-08 06:19:24,757 [Thread-14] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:19:24,764 [Thread-14] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:19:24,764 [Thread-14] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:19:24,970 [Thread-14] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:19:24,972 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Shutdown initiated...
+2021-03-08 06:19:24,973 [Thread-14] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-3 - Shutdown completed.
+2021-03-08 06:19:25,284 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:19:25,285 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:19:26,868 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:19:26,892 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 23 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:19:27,204 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:19:27,207 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:19:27,208 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:19:27,208 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:19:27,355 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:19:27,356 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2064 ms
+2021-03-08 06:19:27,546 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-4 - Starting...
+2021-03-08 06:19:27,553 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-4 - Start completed.
+2021-03-08 06:19:27,554 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-08 06:19:27,710 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:19:27,725 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:19:27,799 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:19:27,800 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:19:27,848 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:19:28,244 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:19:28,452 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:19:28,522 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:19:28,617 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:19:28,864 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:19:28,877 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:19:28,885 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:19:28,888 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:19:28,959 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:19:29,146 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 3.949 seconds (JVM running for 468.96)
+2021-03-08 06:19:29,165 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation delta:
+
+
+==========================
+CONDITION EVALUATION DELTA
+==========================
+
+
+Positive matches:
+-----------------
+
+   H2ConsoleAutoConfiguration matched:
+      - @ConditionalOnClass found required class 'org.h2.server.web.WebServlet' (OnClassCondition)
+      - found 'session' scope (OnWebApplicationCondition)
+      - @ConditionalOnProperty (spring.h2.console.enabled=true) matched (OnPropertyCondition)
+
+
+Negative matches:
+-----------------
+
+    None
+
+
+Exclusions:
+-----------
+
+    None
+
+
+Unconditional classes:
+----------------------
+
+    None
+
+
+
+2021-03-08 06:19:56,672 [Thread-19] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:19:56,681 [Thread-19] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:19:56,681 [Thread-19] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:19:56,889 [Thread-19] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:19:56,892 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-4 - Shutdown initiated...
+2021-03-08 06:19:56,896 [Thread-19] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-4 - Shutdown completed.
+2021-03-08 06:19:57,252 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:19:57,253 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:19:58,686 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:19:58,710 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 22 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:19:59,006 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:19:59,008 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:19:59,009 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:19:59,010 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:19:59,149 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:19:59,150 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1890 ms
+2021-03-08 06:19:59,281 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-5 - Starting...
+2021-03-08 06:19:59,289 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-5 - Start completed.
+2021-03-08 06:19:59,290 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-08 06:19:59,468 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:19:59,487 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:19:59,603 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:19:59,605 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:19:59,679 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:20:00,241 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:20:00,575 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:20:00,652 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:20:00,763 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:20:01,025 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:20:01,057 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:20:01,061 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:20:01,064 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:20:01,085 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:20:01,191 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 4.032 seconds (JVM running for 501.006)
+2021-03-08 06:20:01,199 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 06:21:51,757 [Thread-24] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:21:51,763 [Thread-24] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:21:51,763 [Thread-24] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:21:51,969 [Thread-24] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:21:51,971 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-5 - Shutdown initiated...
+2021-03-08 06:21:51,972 [Thread-24] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-5 - Shutdown completed.
+2021-03-08 06:21:52,475 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:21:52,477 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:21:54,103 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:21:54,128 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:21:54,468 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:21:54,470 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:21:54,470 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:21:54,471 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:21:54,609 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:21:54,609 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2124 ms
+2021-03-08 06:21:54,703 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-6 - Starting...
+2021-03-08 06:21:54,708 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-6 - Start completed.
+2021-03-08 06:21:54,709 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:testdb'
+2021-03-08 06:21:54,829 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:21:54,844 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:21:54,908 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:21:54,909 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:21:54,944 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:21:55,319 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:21:55,564 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:21:55,640 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:21:55,729 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:21:55,967 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:21:55,978 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:21:55,981 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:21:55,984 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:21:56,010 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:21:56,128 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 3.782 seconds (JVM running for 615.943)
+2021-03-08 06:21:56,156 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 06:22:50,105 [Thread-29] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:22:50,113 [Thread-29] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:22:50,114 [Thread-29] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 06:22:50,322 [Thread-29] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 06:22:50,324 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-6 - Shutdown initiated...
+2021-03-08 06:22:50,327 [Thread-29] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-6 - Shutdown completed.
+2021-03-08 06:22:50,773 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 06:22:50,774 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 06:22:52,300 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 06:22:52,326 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 25 ms. Found 1 JPA repository interfaces.
+2021-03-08 06:22:52,637 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 06:22:52,639 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:22:52,640 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 06:22:52,640 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 06:22:52,767 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 06:22:52,767 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1986 ms
+2021-03-08 06:22:52,866 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-7 - Starting...
+2021-03-08 06:22:52,874 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-7 - Start completed.
+2021-03-08 06:22:52,874 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:d3bc5934-0c4e-4e39-8400-f1cb2c738b60'
+2021-03-08 06:22:52,985 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 06:22:53,003 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 06:22:53,082 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 06:22:53,083 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 06:22:53,133 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 06:22:53,551 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 06:22:53,865 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 06:22:53,978 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 06:22:54,100 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 06:22:54,489 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 06:22:54,502 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 06:22:54,505 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 06:22:54,508 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 06:22:54,564 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 06:22:54,698 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 4.037 seconds (JVM running for 674.513)
+2021-03-08 06:22:54,708 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 06:25:48,071 [HikariPool-7 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-7 - Thread starvation or clock leap detected (housekeeper delta=2m6s944ms335µs200ns).
+2021-03-08 07:55:58,435 [Thread-34] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 07:55:58,564 [Thread-34] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 07:55:58,565 [Thread-34] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 07:55:58,808 [Thread-34] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 07:55:58,810 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-7 - Shutdown initiated...
+2021-03-08 07:55:58,812 [Thread-34] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-7 - Shutdown completed.
+2021-03-08 07:55:59,697 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 07:55:59,697 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 07:56:02,463 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 07:56:02,556 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 91 ms. Found 1 JPA repository interfaces.
+2021-03-08 07:56:03,029 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 07:56:03,032 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 07:56:03,032 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 07:56:03,033 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 07:56:03,289 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 07:56:03,339 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 3635 ms
+2021-03-08 07:56:03,465 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-8 - Starting...
+2021-03-08 07:56:03,471 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-8 - Start completed.
+2021-03-08 07:56:03,471 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:2ca91851-67cf-4403-912d-89bac9e94a24'
+2021-03-08 07:56:03,589 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 07:56:03,813 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 07:56:03,896 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 07:56:03,897 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 07:56:03,939 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 07:56:04,354 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 07:56:04,568 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 07:56:04,650 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 07:56:04,774 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 07:56:05,090 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 07:56:05,104 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 07:56:05,106 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 07:56:05,108 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 07:56:05,175 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 07:56:05,283 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 5.973 seconds (JVM running for 6276.95)
+2021-03-08 07:56:05,291 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 07:56:09,571 [Thread-39] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 07:56:09,579 [Thread-39] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 07:56:09,580 [Thread-39] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 07:56:09,785 [Thread-39] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 07:56:09,787 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-8 - Shutdown initiated...
+2021-03-08 07:56:09,789 [Thread-39] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-8 - Shutdown completed.
+2021-03-08 07:56:10,107 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 07:56:10,108 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 07:56:11,471 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 07:56:11,496 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 24 ms. Found 1 JPA repository interfaces.
+2021-03-08 07:56:11,806 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 07:56:11,808 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 07:56:11,809 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 07:56:11,809 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 07:56:12,021 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 07:56:12,022 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 1909 ms
+2021-03-08 07:56:12,133 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-9 - Starting...
+2021-03-08 07:56:12,139 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-9 - Start completed.
+2021-03-08 07:56:12,139 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:aca8ca15-9c83-42d8-af51-ac84fecd5cef'
+2021-03-08 07:56:12,261 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 07:56:12,272 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 07:56:12,327 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 07:56:12,327 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 07:56:12,364 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 07:56:12,754 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 07:56:12,990 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 07:56:13,063 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 07:56:13,171 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 07:56:13,414 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 07:56:13,427 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 07:56:13,429 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 07:56:13,432 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 07:56:13,451 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 07:56:13,566 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 3.565 seconds (JVM running for 6285.232)
+2021-03-08 07:56:13,576 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 08:07:30,109 [HikariPool-9 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=47s865ms232µs970ns).
+2021-03-08 08:30:50,901 [HikariPool-9 housekeeper] WARN  com.zaxxer.hikari.pool.HikariPool                  - HikariPool-9 - Thread starvation or clock leap detected (housekeeper delta=9m20s786ms803µs315ns).
+2021-03-08 08:37:36,379 [Thread-44] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 08:37:36,387 [Thread-44] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 08:37:36,387 [Thread-44] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 08:37:36,594 [Thread-44] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 08:37:36,598 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-9 - Shutdown initiated...
+2021-03-08 08:37:36,601 [Thread-44] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-9 - Shutdown completed.
+2021-03-08 08:37:37,048 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Starting ContactAppApplication using Java 15.0.1 on Ankush with PID 2276 (H:\STS4\ContactApp\target\classes started by Ankush in H:\STS4\ContactApp)
+2021-03-08 08:37:37,049 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - No active profile set, falling back to default profiles: default
+2021-03-08 08:37:38,963 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2021-03-08 08:37:38,999 [restartedMain] INFO  o.s.d.r.c.RepositoryConfigurationDelegate          - Finished Spring Data repository scanning in 34 ms. Found 1 JPA repository interfaces.
+2021-03-08 08:37:39,435 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat initialized with port(s): 9090 (http)
+2021-03-08 08:37:39,437 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Initializing ProtocolHandler ["http-nio-9090"]
+2021-03-08 08:37:39,437 [restartedMain] INFO  org.apache.catalina.core.StandardService           - Starting service [Tomcat]
+2021-03-08 08:37:39,437 [restartedMain] INFO  org.apache.catalina.core.StandardEngine            - Starting Servlet engine: [Apache Tomcat/9.0.43]
+2021-03-08 08:37:39,564 [restartedMain] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring embedded WebApplicationContext
+2021-03-08 08:37:39,564 [restartedMain] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext     - Root WebApplicationContext: initialization completed in 2502 ms
+2021-03-08 08:37:39,672 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-10 - Starting...
+2021-03-08 08:37:39,676 [restartedMain] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-10 - Start completed.
+2021-03-08 08:37:39,676 [restartedMain] INFO  o.s.b.a.h2.H2ConsoleAutoConfiguration              - H2 console available at '/h2-console'. Database available at 'jdbc:h2:mem:b0f8ea6b-3a33-463b-abaf-fab567b25e6e'
+2021-03-08 08:37:39,914 [restartedMain] INFO  o.hibernate.jpa.internal.util.LogHelper            - HHH000204: Processing PersistenceUnitInfo [name: default]
+2021-03-08 08:37:39,926 [restartedMain] INFO  org.hibernate.dialect.Dialect                      - HHH000400: Using dialect: org.hibernate.dialect.H2Dialect
+2021-03-08 08:37:39,992 [restartedMain] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator                 - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2021-03-08 08:37:39,993 [restartedMain] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 08:37:40,031 [restartedMain] INFO  o.s.b.d.a.OptionalLiveReloadServer                 - LiveReload server is running on port 35729
+2021-03-08 08:37:40,401 [restartedMain] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2021-03-08 08:37:40,663 [restartedMain] INFO  o.s.b.a.e.web.EndpointLinksResolver                - Exposing 2 endpoint(s) beneath base path '/actuator'
+2021-03-08 08:37:40,752 [restartedMain] INFO  s.d.s.w.PropertySourcedRequestMappingHandlerMapping - Mapped URL path [/v2/api-docs] onto method [springfox.documentation.swagger2.web.Swagger2Controller#getDocumentation(String, HttpServletRequest)]
+2021-03-08 08:37:40,870 [restartedMain] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Initializing ExecutorService 'applicationTaskExecutor'
+2021-03-08 08:37:41,155 [restartedMain] INFO  o.apache.coyote.http11.Http11NioProtocol           - Starting ProtocolHandler ["http-nio-9090"]
+2021-03-08 08:37:41,168 [restartedMain] INFO  o.s.b.w.embedded.tomcat.TomcatWebServer            - Tomcat started on port(s): 9090 (http) with context path ''
+2021-03-08 08:37:41,169 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Context refreshed
+2021-03-08 08:37:41,172 [restartedMain] INFO  s.d.s.w.p.DocumentationPluginsBootstrapper         - Found 1 custom documentation plugin(s)
+2021-03-08 08:37:41,184 [restartedMain] INFO  s.d.s.w.s.ApiListingReferenceScanner               - Scanning for api listing references
+2021-03-08 08:37:41,326 [restartedMain] INFO  com.gigabytes.ContactAppApplication                - Started ContactAppApplication in 4.464 seconds (JVM running for 8773.014)
+2021-03-08 08:37:41,332 [restartedMain] INFO  o.s.b.d.a.ConditionEvaluationDeltaLoggingListener  - Condition evaluation unchanged
+2021-03-08 08:39:51,546 [http-nio-9090-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/]                 - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2021-03-08 08:39:51,546 [http-nio-9090-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Initializing Servlet 'dispatcherServlet'
+2021-03-08 08:39:51,558 [http-nio-9090-exec-6] INFO  o.s.web.servlet.DispatcherServlet                  - Completed initialization in 11 ms
+2021-03-08 08:44:24,932 [RMI TCP Connection(181)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2021-03-08 08:44:24,976 [RMI TCP Connection(181)-127.0.0.1] INFO  o.s.s.concurrent.ThreadPoolTaskExecutor            - Shutting down ExecutorService 'applicationTaskExecutor'
+2021-03-08 08:44:24,983 [RMI TCP Connection(181)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean     - Closing JPA EntityManagerFactory for persistence unit 'default'
+2021-03-08 08:44:24,983 [RMI TCP Connection(181)-127.0.0.1] INFO  o.h.t.s.i.SchemaDropperImpl$DelayedDropActionImpl  - HHH000477: Starting delayed evictData of schema as part of SessionFactory shut-down'
+2021-03-08 08:44:25,190 [RMI TCP Connection(181)-127.0.0.1] WARN  o.s.b.f.support.DisposableBeanAdapter              - Invocation of destroy method failed on bean with name 'inMemoryDatabaseShutdownExecutor': org.h2.jdbc.JdbcSQLNonTransientConnectionException: Database is already closed (to disable automatic closing at VM shutdown, add ";DB_CLOSE_ON_EXIT=FALSE" to the db URL) [90121-200]
+2021-03-08 08:44:25,192 [RMI TCP Connection(181)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-10 - Shutdown initiated...
+2021-03-08 08:44:25,194 [RMI TCP Connection(181)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource                 - HikariPool-10 - Shutdown completed.

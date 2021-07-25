@@ -1,0 +1,23 @@
+server:
+  port: 9091
+  logging:
+  file:
+  name: phonebook.log
+spring:
+  datasource:
+    driverClassName: org.h2.Driver
+    password: ''
+    username: sa
+    spring:
+      datasource:
+        url:jdbc.h2.mem.contact
+  jpa:
+    database-platform: org.hibernate.dialect.H2Dialect
+ 
+ 
+phnbook: 
+  messages:
+    saveContactSuccess: Contact saved successfully
+    saveContactFailed: Failed to save contact
+    deleteContactSuccess: Contact deleted successfully
+    deleteContactFailed: Failed to delete contact
